@@ -50,7 +50,9 @@ graph = {
 }
 start = (0, 0)
 goal = (2, 2)
-day = "Saturday"
+print("choose from Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday")
+
+day = input()
 
 cost, path = a_star(graph, start, goal, day)
 print("Cost:", cost)
